@@ -16,16 +16,16 @@ Vue.use(Router)
 export default new Router({
     routes: [
         {
+            path: '/',
+            redirect: '/dashBoard'
+        },
+        {
             path: '/login',
             name: 'login',
             component: login,
             meta: {
                 title: '登录',
             }
-        },
-        {
-            path: '/',
-            redirect: '/dashBoard'
         },
         {
             path: '/',

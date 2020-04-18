@@ -2,7 +2,7 @@
     <div class="loginBody">
         <el-row>
             <el-col :span="12">
-                <div class="title"><img class="head" src="/static/logo.png"></div>
+                <div class="title"><img class="head" src="../../static/logo.png"></div>
                 <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="0" class="demo-ruleForm">
                     <div class="myInput username">
                         <el-form-item prop="id">
@@ -28,7 +28,7 @@
             </el-col>
 
             <el-col :span="12" align="center">
-                <img class="rightImg" src="/static/right.png">
+                <img class="rightImg" src="../../static/right.png">
             </el-col>
         </el-row>
     </div>

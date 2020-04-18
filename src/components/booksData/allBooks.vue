@@ -40,8 +40,7 @@
                 <el-table-column prop="ID" label="书籍编号" align="center" width="80"></el-table-column>
                 <el-table-column label="书籍封面" align="center" width="100">
                     <template slot-scope="props">
-                        <el-image class="bookImg" :src="'https://www.xiaoqw.online/smallFrog-bookstore/img/'+props.row.img" :preview-src-list="['https://www.xiaoqw.online/smallFrog-bookstore/img/'+props.row.img]">
-                        </el-image>
+                        <img class="bookImg" :src="'https://www.xiaoqw.online/smallFrog-bookstore/img/'+props.row.img" :preview-src-list="['https://www.xiaoqw.online/smallFrog-bookstore/img/'+props.row.img]">
                     </template>
                 </el-table-column>
                 <el-table-column prop="Name" align="center" label="书名" width="150"></el-table-column>
