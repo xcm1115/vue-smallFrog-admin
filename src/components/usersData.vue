@@ -18,7 +18,12 @@
                             <el-form-item label="自我介绍:">
                                 <span>{{ props.row.Selfintro }}</span>
                             </el-form-item>
+                            
                         </el-form>
+                        <div class="address">
+                            <p style="text-align: center;">收货地址</p>
+                            {{ props.row.Address }}
+                        </div>
                     </template>
                 </el-table-column>
 
@@ -121,6 +126,14 @@
         margin-right: 0;
         margin-bottom: 0;
         width: 50%;
+    }
+
+    .address {
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 25px;
+        margin-bottom: 10px;
     }
 
     .search {
