@@ -17,7 +17,6 @@
                 <el-table-column prop="User_name" label="用户名" align="center" width="150"></el-table-column>
                 <el-table-column prop="User_address" label="送货地址" align="center" width="120" show-overflow-tooltip></el-table-column>
                 <el-table-column prop="User_tel" label="用户电话" align="center" width="150"></el-table-column>
-                <el-table-column prop="User_CID" label="身份证号" align="center" width="200"></el-table-column>
                 <el-table-column prop="Book_id" label="书籍ID" align="center" width="80"></el-table-column>
                 <el-table-column prop="Book_number" label="订购数量" align="center"></el-table-column>
                 <el-table-column prop="Goods_price" label="单价" align="center"></el-table-column>
@@ -57,9 +56,6 @@
                 </el-form-item>
                 <el-form-item label="用户电话" prop="User_ter">
                     <el-input v-model="form.User_tel" oninput="value=value.replace(/[^\d]/g,'')"></el-input>
-                </el-form-item>
-                <el-form-item label="身份证号" prop="User_CID">
-                    <el-input disabled v-model="form.User_CID" oninput="value=value.replace(/[^\d]/g,'')"></el-input>
                 </el-form-item>
                 <el-form-item label="书籍ID" prop="Book_id">
                     <el-input v-model="form.Book_id" oninput="value=value.replace(/[^\d]/g,'')"></el-input>
