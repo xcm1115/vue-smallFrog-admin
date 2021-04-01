@@ -1,3 +1,7 @@
+默认登陆账号：admin
+
+默认登陆密码：123456
+
 # smallfrog-manager
 
 > A Vue.js project
